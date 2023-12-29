@@ -1,4 +1,5 @@
 export class Todo {
-    content: string;
-    completed: boolean;
+    content!: string;
+    // add assertion in case of undefined init
+    completed!: boolean;
 }
