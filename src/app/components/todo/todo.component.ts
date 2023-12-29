@@ -14,6 +14,10 @@ export class TodoComponent implements OnInit{
       {
         content: 'first content',
         completed: true
+      },
+      {
+        content: 'second content',
+        completed: false
       }
     ]
   }
