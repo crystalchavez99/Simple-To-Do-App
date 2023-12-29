@@ -41,7 +41,7 @@
 .todo-submit{
     display: block;
     width: 100%;
-    max-width: 100%;
+    max-width: 200px;
     appearance: none;
     border: none;
     outline: none;
