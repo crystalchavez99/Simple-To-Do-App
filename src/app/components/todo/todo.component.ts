@@ -27,4 +27,8 @@ export class TodoComponent implements OnInit{
       return v;
     })
   }
+
+  deleteTodo(id:number){
+    this.todos = this.todos.filter((v,i) => i!==id)
+  }
 }
